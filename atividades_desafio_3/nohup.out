@@ -1,0 +1,57 @@
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-w3GCX9
+dropbox: initializing
+dropbox: initializing python 3.7.2
+dropbox: setting program path '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/dropbox'
+dropbox: setting home path '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136'
+dropbox: setting python path '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136:/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/python-packages-37.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/cryptography.hazmat.bindings._constant_time.cpython-37m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/cryptography.hazmat.bindings._openssl.cpython-37m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/cryptography.hazmat.bindings._padding.cpython-37m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/psutil._psutil_linux.cpython-37m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/psutil._psutil_posix.cpython-37m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/linuxffi.pthread._linuxffi_pthread.cpython-37m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/cpuid.compiled._cpuid.cpython-37m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/dbxlog._dbxlog.cpython-37m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/linuxffi.resolv.compiled._linuxffi_resolv.cpython-37m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/tornado.speedups.cpython-37m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/linuxffi.gnu.compiled._linuxffi_gnu.cpython-37m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/linuxffi.sys.compiled._linuxffi_sys.cpython-37m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/librsyncffi.compiled._librsyncffi.cpython-37m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/posixffi.libc._posixffi_libc.cpython-37m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/PyQt5.QtCore.cpython-37m-x86_64-linux-gnu.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/PyQt5.QtGui.cpython-37m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/PyQt5.QtWidgets.cpython-37m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/PyQt5.QtNetwork.cpython-37m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/PyQt5.QtDBus.cpython-37m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/PyQt5.QtWebKit.cpython-37m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/PyQt5.QtWebKitWidgets.cpython-37m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/marcus/.dropbox-dist/dropbox-lnx.x86_64-72.4.136/PyQt5.QtPrintSupport.cpython-37m-x86_64-linux-gnu.so'
+[91m[main 2019-05-16T03:18:31.603Z][0m [uncaught exception in main]: Error: Unknown channel
+[91m[main 2019-05-16T03:18:31.606Z][0m Error: Unknown channel
+    at b.onPromise (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:164:923)
+    at b.onRawMessage (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:164:640)
+    at protocolListener.protocol.onMessage.e (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:164:206)
+    at u.fire (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:50:806)
+    at _register._socketReader.onMessage.e (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:174:700)
+    at u.fire (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:50:806)
+    at f.acceptChunk (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:173:234)
+    at _register._socket.onData.e (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:172:575)
+    at Socket.t (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:181:938)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at Pipe.onread (net.js:636:20)
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+Gtk-Message: 00:18:41.928: GtkDialog mapped without a transient parent. This is discouraged.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
